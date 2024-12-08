@@ -1,4 +1,4 @@
-// Example for fetchContacts
+// Example for fetchContact
 async function fetchContacts() {
     try {
         const response = await fetch(BASE_URL);
