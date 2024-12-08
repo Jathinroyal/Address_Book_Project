@@ -9,6 +9,7 @@ function addContact(event) {
 
     const contact = { name, email, phone };
     const editId = localStorage.getItem('editContactId');
+    
 
     if (editId) {
         // Update existing contact
